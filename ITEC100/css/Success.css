@@ -1,0 +1,47 @@
+
+.vbox{
+	border-radius: 5px;
+	width:500px;
+	background: rgba(0, 0, 0, 0.57);
+	color:black;
+	top:40%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+button[name="submit"] {
+  font-size: 14px;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  width: 30%;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  float: right;
+  background-color: lightpink;
+}
+button[name="submit"]:hover {
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+  background: #333333;
+  color:white;
+}
+
+.vbox input[id="typed"]{
+	height: 50px;
+	width:50%;
+	margin-bottom:10px;
+	font-size: 20px;
+}
+label{
+	font-size: 18px;
+	color: white;
+	letter-spacing: 2px;
+}
